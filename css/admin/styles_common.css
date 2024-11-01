@@ -1,0 +1,340 @@
+/* ----------------------------------- */
+/**
+ * @package WP Nutrition Facts
+ * @link http://www.kilukrumedia.com
+ * @copyright Copyright &copy; 2014, Kilukru Media
+ * @version: 1.0.2
+ */
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+.wpnf-clear{
+	clear: both;
+	display: block;
+	height: 0px;
+	overflow: hidden;
+	text-indent: -9999px;
+	visibility: hidden;
+	width: 0px;
+}
+/* ----------------------------------- */
+
+
+/* ----------------------------------- */
+/* Bootstrap Tooltip elements */
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+
+.tooltip.in {
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.tooltip.top {
+  padding: 5px 0;
+  margin-top: -3px;
+}
+
+.tooltip.right {
+  padding: 0 5px;
+  margin-left: 3px;
+}
+
+.tooltip.bottom {
+  padding: 5px 0;
+  margin-top: 3px;
+}
+
+.tooltip.left {
+  padding: 0 5px;
+  margin-left: -3px;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 4px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.top-left .tooltip-arrow {
+  bottom: 0;
+  left: 5px;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.top-right .tooltip-arrow {
+  right: 5px;
+  bottom: 0;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-right-color: #000000;
+  border-width: 5px 5px 5px 0;
+}
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-left-color: #000000;
+  border-width: 5px 0 5px 5px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+  top: 0;
+  left: 5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+  top: 0;
+  right: 5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
+
+.wpnf_tooltip{
+	margin-left: 10px;
+	position: relative;
+	top: 6px;
+}
+/* ----------------------------------- */
+
+
+
+/* ----------------------------------- */
+/* Commons Admin Styles */
+.wpnf-label { 
+	border: 1px solid #ccc;
+	font-family: helvetica, arial, sans-serif;
+	font-size: .9em;
+	width: 22em;
+	padding: 1em 1.25em 1em 1.25em;
+	line-height: 1.4em;
+	margin: 1em 0;
+}
+.wpnf-label hr { border:none; border-bottom: solid 8px #666; margin: 3px 0px; }
+.wpnf-label .heading { font-size: 2.6em; font-weight: 900; margin: 0; line-height: 1em; }
+.wpnf-label .indent { margin-left: 1em; }
+.wpnf-label .small { font-size: .75em; line-height: 1.2em; }
+.wpnf-label .item_row { border-top: solid 1px #ccc; padding: 3px 0; }
+
+.wpnf-label .amount-per {
+	border-bottom: solid 2px #666;
+	border-top: 0 none;
+	padding: 0 0 6px 0;
+}
+.wpnf-label .daily-value {
+		border-top: solid 4px #666;
+		font-weight: bold;
+		line-height: 1.5em;
+		padding: 0 0 6px 0;
+		text-align: right;
+}
+.wpnf-label .f-left { float: left; }
+.wpnf-label .f-right { float: right; }
+.wpnf-label .noborder { border: none; }
+
+.wpnf-label .item_row_notactive {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity: 0.3;
+	opacity: 0.3;
+}
+.wpnf-label .item_row_notactive .unit{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.wpnf_cf:before,.wpnf_cf:after { content: " "; display: table;}
+.wpnf_cf:after { clear: both; }
+.wpnf_cf { *zoom: 1; }
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+.wpnf-section-divider{
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#wpnf-section label,
+#wpnf-example-options label{
+  float: left;
+  margin-right: 10px;
+  padding-top: 5px;
+  text-align: right;
+  width: 120px;
+}
+
+#wpnf-example{
+  float: right;
+}
+
+#wpnf-example-options{
+  float: left;
+}
+
+#wpnf-example-options .wpnf-option{
+  padding: 3px 0;
+}
+
+#wpnf-example-options .wpnf-option .unit{
+  display: inline-block;
+  padding: 0 0 0 10px;
+  width: 40px;
+}
+
+#wpnf-example-options .wpnf-option .icon_edit{
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+#wpnf-example-options .wpnf-option .icon_edit:focus,
+#wpnf-example-options .wpnf-option .icon_edit:hover{
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+#wpnf-shortcode{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#wpnf-shortcode .shortcode{
+	font-size: 13px;
+	height: 40px;
+	line-height: 40px;
+	max-width: 400px;
+	padding: 0 15px;
+	width: 100%;
+}
+
+
+/* ----------------------------------- */
+
+
+/* ----------------------------------- */
+.dashboard_widget_block{
+    text-align: center;
+}
+    .dashboard_widget_block h3{
+        font-size: 25px;
+    }
+/* ----------------------------------- */
+
+
+/* ----------------------------------- */
+/* ICONS */
+@font-face {
+  font-family: 'wpnf_icomoon';
+  src:url('fonts/icomoon.eot');
+  src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="wpnf_icon-"], [class*=" wpnf_icon-"] {
+  font-family: 'wpnf_icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wpnf_icon-heart:before {
+  content: "\e600";
+}
+.wpnf_icon-happy:before {
+  content: "\e601";
+}
+.wpnf_icon-smiley:before {
+  content: "\e602";
+}
+.wpnf_icon-tongue:before {
+  content: "\e603";
+}
+.wpnf_icon-cool:before {
+  content: "\e604";
+}
+.wpnf_icon-cogs:before {
+  content: "\e605";
+}
+.wpnf_icon-cog:before {
+  content: "\e606";
+}
+.wpnf_icon-mug:before {
+  content: "\e607";
+}
+.wpnf_icon-heart2:before {
+  content: "\e608";
+}
+.wpnf_icon-cup:before {
+  content: "\e609";
+}
+/* ----------------------------------- */

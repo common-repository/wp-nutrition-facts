@@ -1,0 +1,23 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="ignore">wpnf_pageid</custom-field>
+		<custom-field action="ignore">_wp_old_slug</custom-field>
+		
+		<custom-field action="translate">wpnf_servingsize</custom-field>
+        <custom-field action="translate">wpnf_servings</custom-field>
+        <custom-field action="copy">wpnf_calories</custom-field>
+		<custom-field action="copy">wpnf_totalfat</custom-field>
+		<custom-field action="copy">wpnf_satfat</custom-field>
+		<custom-field action="copy">wpnf_transfat</custom-field>
+		<custom-field action="copy">wpnf_cholesterol</custom-field>
+		<custom-field action="copy">wpnf_sodium</custom-field>
+		<custom-field action="copy">wpnf_carbohydrates</custom-field>
+		<custom-field action="copy">wpnf_fiber</custom-field>
+		<custom-field action="copy">wpnf_sugars</custom-field>
+		<custom-field action="copy">wpnf_protein</custom-field>
+		<custom-field action="copy">wpnf_potassium</custom-field>
+
+    </custom-fields>
+</wpml-config>
+
+

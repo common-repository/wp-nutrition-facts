@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Nutrition Facts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-25 02:37-0500\n"
+"PO-Revision-Date: 2014-01-25 02:37-0500\n"
+"Last-Translator: Alfred <info@kilukrumedia.com>\n"
+"Language-Team: Alfred Dagenais\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _n:1,2;__;_e;esc_attr_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../wpnutrifacts_class.php:88
+msgid "Serving Size"
+msgstr "Taille de la portion"
+
+#: ../wpnutrifacts_class.php:89
+msgid "Servings"
+msgstr "Portion"
+
+#: ../wpnutrifacts_class.php:90 ../wpnutrifacts_class.php:318
+#: ../wpnutrifacts_class.php:799
+msgid "Calories"
+msgstr "Calories"
+
+#: ../wpnutrifacts_class.php:91 ../wpnutrifacts_class.php:325
+#: ../wpnutrifacts_class.php:812
+msgid "Total Fat"
+msgstr "Lipides"
+
+#: ../wpnutrifacts_class.php:92 ../wpnutrifacts_class.php:332
+#: ../wpnutrifacts_class.php:819
+msgid "Saturated Fat"
+msgstr "Saturés"
+
+#: ../wpnutrifacts_class.php:93
+msgid "Trans. Fat"
+msgstr "+ trans"
+
+#: ../wpnutrifacts_class.php:94 ../wpnutrifacts_class.php:345
+#: ../wpnutrifacts_class.php:835
+msgid "Cholesterol"
+msgstr "Cholestérol"
+
+#: ../wpnutrifacts_class.php:95 ../wpnutrifacts_class.php:352
+#: ../wpnutrifacts_class.php:842
+msgid "Sodium"
+msgstr "Sodium"
+
+#: ../wpnutrifacts_class.php:96 ../wpnutrifacts_class.php:359
+#: ../wpnutrifacts_class.php:849
+msgid "Potassium"
+msgstr "Potassium"
+
+#: ../wpnutrifacts_class.php:97
+msgid "Carbohydrates"
+msgstr "Glucides"
+
+#: ../wpnutrifacts_class.php:98
+msgid "Fiber"
+msgstr "Fibres"
+
+#: ../wpnutrifacts_class.php:99 ../wpnutrifacts_class.php:380
+#: ../wpnutrifacts_class.php:870
+msgid "Sugars"
+msgstr "Sucres"
+
+#: ../wpnutrifacts_class.php:100 ../wpnutrifacts_class.php:386
+#: ../wpnutrifacts_class.php:878
+msgid "Protein"
+msgstr "Protéines"
+
+#: ../wpnutrifacts_class.php:148 ../wpnutrifacts_class.php:149
+msgid "Nutrition Facts Labels"
+msgstr "Tableau des Valeurs nutritive"
+
+#: ../wpnutrifacts_class.php:150
+msgid "Add New"
+msgstr "Ajouter"
+
+#: ../wpnutrifacts_class.php:151
+msgid "Add New Label"
+msgstr "Ajouter un nouveau tableau"
+
+#: ../wpnutrifacts_class.php:152
+msgid "Edit Label"
+msgstr "Modifier"
+
+#: ../wpnutrifacts_class.php:153
+msgid "New Label"
+msgstr "Nouveau tableau"
+
+#: ../wpnutrifacts_class.php:154
+msgid "All Labels"
+msgstr "Tous les tableaux"
+
+#: ../wpnutrifacts_class.php:155
+msgid "View Label"
+msgstr "Voir le tableau"
+
+#: ../wpnutrifacts_class.php:156
+msgid "Search Labels"
+msgstr "Rechercher dans les tableaux"
+
+#: ../wpnutrifacts_class.php:157
+msgid "No labels found"
+msgstr "Pas de tableaux trouvé"
+
+#: ../wpnutrifacts_class.php:158
+msgid "No labels found in Trash"
+msgstr "Aucun tableau n'a été trouvé dans la corbeil"
+
+#: ../wpnutrifacts_class.php:160 ../wpnutrifacts_class.php:300
+#: ../wpnutrifacts_class.php:718
+msgid "Nutrition Facts"
+msgstr "Valeur nutritive"
+
+#: ../wpnutrifacts_class.php:195
+msgid "Nutritional Facts Labels Options"
+msgstr "Options pour valeur nutritive"
+
+#: ../wpnutrifacts_class.php:197
+#, fuzzy
+msgid "Nutritional Facts"
+msgstr "Options pour valeur nutritive"
+
+#: ../wpnutrifacts_class.php:248 ../wpnutrifacts_class.php:636
+msgid "Section"
+msgstr "Section"
+
+#: ../wpnutrifacts_class.php:251
+msgid "Select a Page..."
+msgstr "Sélectionner une page"
+
+#: ../wpnutrifacts_class.php:252
+msgid "Pages"
+msgstr "Pages"
+
+#: ../wpnutrifacts_class.php:257
+msgid "Posts"
+msgstr "Articles"
+
+#: ../wpnutrifacts_class.php:291
+msgid ""
+"Select a page, post or custom post type to remember where is the nutrition "
+"facts."
+msgstr ""
+"Sélectionner une page, un article ou type personalisé pour retrouvé le "
+"tableau de valeur nutritive"
+
+#: ../wpnutrifacts_class.php:303 ../wpnutrifacts_class.php:774
+msgid "Per"
+msgstr "Par"
+
+#: ../wpnutrifacts_class.php:311 ../wpnutrifacts_class.php:791
+msgid "Amount"
+msgstr "Teneur"
+
+#: ../wpnutrifacts_class.php:312 ../wpnutrifacts_class.php:792
+msgid "Daily Value"
+msgstr "valeur quotidienne"
+
+#: ../wpnutrifacts_class.php:339 ../wpnutrifacts_class.php:826
+msgid "Trans Fat"
+msgstr "+ trans"
+
+#: ../wpnutrifacts_class.php:366 ../wpnutrifacts_class.php:856
+msgid "Total Carbohydrate"
+msgstr "Glucides"
+
+#: ../wpnutrifacts_class.php:373 ../wpnutrifacts_class.php:863
+msgid "Dietary Fiber"
+msgstr "Fibres"
+
+#: ../wpnutrifacts_class.php:394 ../wpnutrifacts_class.php:888
+msgid ""
+"Percent Daily Values are based on a 2,000 calorie diet. Your daily values "
+"may be higher or lower depending on your calorie needs."
+msgstr ""
+"Les pourcentage de valeurs quotidiennes sont basés sur un régime de 2000 "
+"calories. Vos valeurs quotidiennes peuvent être plus élevés ou moins élevés "
+"selon vos besoins en calories."
+
+#: ../wpnutrifacts_class.php:445
+msgid "ex. : 1/2 cup"
+msgstr "ex.: 1/2 tasse"
+
+#: ../wpnutrifacts_class.php:449 ../wpnutrifacts_class.php:471
+msgid "ex. : 125 mL"
+msgstr "ex. : 125 mL"
+
+#: ../wpnutrifacts_class.php:475
+#, php-format
+msgid "Edit value on %s language."
+msgstr "Modifier la valeur dans la langue %s"
+
+#: ../wpnutrifacts_class.php:541 ../wpnutrifacts_class.php:635
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: ../wpnutrifacts_class.php:634
+msgid "Title"
+msgstr "Titre"
+
+#: ../wpnutrifacts_class.php:637
+msgid "Date"
+msgstr "Date"
+
+#: ../wpnutrifacts_class.php:802
+msgid "Calories from Fat"
+msgstr "Calories provenant des matières grasses"
+
+#: ../wpnutrifacts_class.php:978 ../wpnutrifacts_class.php:979
+#: ../wpnutrifacts_class.php:981
+msgid "Label updated."
+msgstr "Tableau à été mise à jour."
+
+#: ../wpnutrifacts_class.php:980
+msgid "Label deleted."
+msgstr "Tableau à été supprimé."
+
+#: ../wpnutrifacts_class.php:982
+#, php-format
+msgid "%2$s restored to revision from %1$s"
+msgstr "%2$s restauré à la révision %1$s"
+
+#: ../wpnutrifacts_class.php:983
+msgid "Label published."
+msgstr "Tableau à été publié."
+
+#: ../wpnutrifacts_class.php:984
+msgid "Label saved."
+msgstr "Tableau à été enregistré."
+
+#: ../wpnutrifacts_class.php:985
+msgid "Label submitted."
+msgstr "Tableau à été soumis."
+
+#: ../wpnutrifacts_class.php:986
+#, php-format
+msgid "%s scheduled for: <strong>%s</strong>."
+msgstr "%s planifié pour : <strong>%s</strong>."
+
+#: ../wpnutrifacts_class.php:986
+msgid "M j, Y @ G:i"
+msgstr "d m Y @ H:i"
+
+#: ../wpnutrifacts_class.php:987
+msgid "Label draft updated."
+msgstr "Tableau brouillon à été mise à jour."
+
+#: ../wpnutrifacts_class.php:1025
+msgid "Edit"
+msgstr "Modifier"
+
+#: ../wpnutrifacts_class.php:1031
+msgid "Help"
+msgstr "Aide"
+
+#: ../wpnutrifacts_class.php:1123
+#, php-format
+msgid "Sorry, WP Nutrition Facts works only under WordPress %s or higher"
+msgstr ""
+"Désolé, WP Nutrition Facts ne fonctionne que sous WordPress %s ou plus."
+
+#: ../wpnutrifacts_class.php:1142
+#, php-format
+msgid "Sorry, WP Nutrition Facts works only under PHP %s or higher"
+msgstr "Désolé, WP Nutrition Facts ne fonctionne que sous PHP %s ou plus."
+
+#~ msgid "WP Nutrition Facts"
+#~ msgstr "WP Nutrition Facts"

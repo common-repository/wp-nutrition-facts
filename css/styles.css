@@ -1,0 +1,45 @@
+/* ----------------------------------- */
+/**
+ * @package WP Nutrition Facts
+ * @link http://www.kilukrumedia.com
+ * @copyright Copyright &copy; 2014, Kilukru Media
+ * @version: 1.0.2
+ */
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+/* Commons Frontend Styles */
+.wpnf-label { 
+	border: 1px solid #ccc;
+	font-family: helvetica, arial, sans-serif;
+	font-size: .9em;
+	width: 22em;
+	padding: 1em 1.25em 1em 1.25em;
+	line-height: 1.4em;
+	margin: 1em 0;
+}
+.wpnf-label hr { border:none; border-bottom: solid 8px #666; margin: 3px 0px; }
+.wpnf-label .heading { font-size: 2.6em; font-weight: 900; margin: 0; line-height: 1em; }
+.wpnf-label .indent { margin-left: 1em; }
+.wpnf-label .small { font-size: .75em; line-height: 1.2em; }
+.wpnf-label .item_row { border-top: solid 1px #ccc; padding: 3px 0; }
+.wpnf-label .amount-per {
+	border-bottom: solid 2px #666;
+	border-top: 0 none;
+	padding: 0 0 6px 0;
+}
+.wpnf-label .daily-value {
+		border-top: solid 4px #666;
+		font-weight: bold;
+		line-height: 1.5em;
+		padding: 0 0 6px 0;
+		text-align: right;
+}
+.wpnf-label .f-left { float: left; }
+.wpnf-label .f-right { float: right; }
+.wpnf-label .noborder { border: none; }
+
+.wpnf_cf:before,.wpnf_cf:after { content: " "; display: table;}
+.wpnf_cf:after { clear: both; }
+.wpnf_cf { *zoom: 1; }
+/* ----------------------------------- */
